@@ -8,7 +8,7 @@
 	<link rel="shortcut icon" href="resources/favicon.png" />
 	<link rel="stylesheet" href="resources/libs/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/main.min.css">
-	<title>STREETSTER</title>
+	<title>Вело-магазин STREETSTER. Типы велосипедов, новости, обмундирование.</title>
 </head>
 
 <body>
@@ -34,30 +34,31 @@
 					</form>
 					<div class="nav__search-field search-field">
 						<ul class="search-field__list">
-							<article class="search-field__item sf-item">
-								<div class="sf-item">
-									<div class="sf-item__image">
-										<a href="#" class="sf-item__link">
-											<img src="img/header/bike-icon.png" alt="Иконка велосипеда" class="sf-item__img">
-										</a>
-									</div>
-									<div class="sf-item__info">
-										<a href="#" class="sf-item__link">
-											<h3 class="sf-item__name" aria-label="Название">STEETSTER NATHAN</h3>
-											<span class="sf-item__subinfo" aria-label="Вспомогательная Информация">12000 ₴</span>
-										</a>
-									</div>
-							</article>
+							<li>
+								<article class="search-field__item sf-item">
+									<div class="sf-item">
+										<div class="sf-item__image">
+											<a href="#search-item" class="sf-item__link">
+												<img src="img/header/bike-icon.png" alt="Иконка велосипеда" class="sf-item__img">
+											</a>
+										</div>
+										<div class="sf-item__info">
+											<a href="#search-item" class="sf-item__link">
+												<h3 class="sf-item__name" aria-label="Название">STEETSTER NATHAN</h3>
+												<span class="sf-item__subinfo" aria-label="Вспомогательная Информация">12000 ₴</span>
+											</a>
+										</div>
+								</article>
 							</li>
 							<li class="search-field__item sf-item">
 								<article class="sf-item">
 									<div class="sf-item__image">
-										<a href="#" class="sf-item__link">
+										<a href="#search-item" class="sf-item__link">
 											<img src="img/header/bike-icon.png" alt="Иконка велосипеда" class="sf-item__img">
 										</a>
 									</div>
 									<div class="sf-item__info">
-										<a href="#" class="sf-item__link">
+										<a href="#search-item" class="sf-item__link">
 											<h3 class="sf-item__name" aria-label="Название">НОВОСТИ</h3>
 											<span class="sf-item__subinfo" aria-label="Вспомогательная Информация">Новый велосипед Streetster Nathan</span>
 										</a>
@@ -86,14 +87,14 @@
 				<span class="cart__close-field"></span>
 				<div class="cart__wrapper">
 					<div class="cart__quantity">
-						В корзине 2 товара
+						В корзине <span class="cart__quantity-numb">2</span> товара
 					</div>
 					<ul class="cart__list">
 						<li class="cart__item">
 							<article class="c-item">
 								<img src="img/header/bike-icon.png" alt="Велосипед" class="c-item__image">
-								<a href="" class="c-item__link">
-									<h3 class="c-item__title">STREETSTER NATAN</h3>
+								<a href="#cart-item" class="c-item__link">
+									<h4 class="c-item__title">STREETSTER NATAN</h4>
 									<span class="c-item__price">6000 ₴</span>
 								</a>
 								<button class="c-item__delete" aria-label="Удалить товар">
@@ -106,8 +107,8 @@
 						<li class="cart__item">
 							<article class="c-item">
 								<img src="img/header/helmet.png" alt="Вело-шлем" class="c-item__image">
-								<a href="" class="c-item__link">
-									<h3 class="c-item__title">ШЛЕМ OCTANE</h3>
+								<a href="#cart-item" class="c-item__link">
+									<h4 class="c-item__title">ШЛЕМ OCTANE</h4>
 									<span class="c-item__price">4000 ₴</span>
 								</a>
 								<button class="c-item__delete" aria-label="Удалить товар">
@@ -135,24 +136,24 @@
 					</div>
 					<ul class="menu__list-category" aria-label="Категории">
 						<li>
-							<a href="" class="menu__link menu__link--bold">ROAD SERIES</a>
+							<a href="#menu-item" class="menu__link menu__link--bold">ROAD SERIES</a>
 						</li>
 						<li>
-							<a href="" class="menu__link menu__link--bold">STREET SERIES</a>
+							<a href="#menu-item" class="menu__link menu__link--bold">STREET SERIES</a>
 						</li>
 						<li>
-							<a href="" class="menu__link menu__link--bold">MOUNTAIN SERIES</a>
+							<a href="#menu-item" class="menu__link menu__link--bold">MOUNTAIN SERIES</a>
 						</li>
 					</ul>
 					<ul class="menu__list" aria-label="Информация">
 						<li>
-							<a href="" class="menu__link">Новости</a>
+							<a href="#menu-item" class="menu__link">Новости</a>
 						</li>
 						<li>
-							<a href="" class="menu__link">О нас</a>
+							<a href="#menu-item" class="menu__link">О нас</a>
 						</li>
 						<li>
-							<a href="" class="menu__link">Контакты</a>
+							<a href="#menu-item" class="menu__link">Контакты</a>
 						</li>
 					</ul>
 					<ul class="menu__list menu__list-social" aria-label="Социальные сети">
@@ -176,14 +177,96 @@
 		</div>
 	</nav>
 </header>
-Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos et suscipit autem nisi <br> aperiam aspernatur perferendis accusamus, veritatis ullam quaerat! Sunt dolor ducimus modi alias. Accusantium enim ipsum asperiores reprehenderit consequuntur id beatae dolore ea laboriosam consectetur blanditiis repellendus nobis quia ex quasi, optio, dolorem dolores voluptatibus doloremque ab error facere. Aspernatur ut praesentium quidem maiores cum eveniet beatae quo consequuntur eos odio quibusdam sapiente voluptates deserunt impedit officia, iste recusandae voluptatum sed inventore, nulla quos? Suscipit fugit id cum perferendis! Nesciunt vero veniam, similique magnam corporis ipsam porro? Pariatur animi explicabo veritatis facilis! Autem repellat a ipsam quos officia voluptates at explicabo est quod exercitationem, vero voluptatum libero necessitatibus aperiam sit mollitia eius. At sit dignissimos beatae, aperiam rem veniam quia animi dolorem illo sint facere cupiditate magni explicabo,
-repellat
-maiores! Suscipit id non assumenda voluptas eos ipsam molestiae nihil nulla, <br> quisquam culpa! Aspernatur qui molestias veritatis natus eligendi illum, aliquam, non debitis cumque ipsam quaerat expedita iste rem placeat facere nostrum in similique? Ipsam earum deserunt eius quae. Molestias minima in officia, eligendi ab eius, porro quos ipsum vitae delectus ea illo. Vitae magni quae iste provident magnam deleniti et nihil consequatur ut. Illo nulla esse excepturi vel ad! Saepe debitis expedita nam sint! Voluptas impedit nesciunt a consequuntur blanditiis iure molestias atque tempore rerum tenetur dicta consectetur maiores, mollitia laudantium quibusdam vitae quisquam expedita ea placeat nobis consequatur dignissimos deleniti. Repellat sit eos illum doloribus, molestias rem incidunt minima quis quidem similique reiciendis, aliquid praesentium id inventore ullam aperiam. Soluta veritatis, facere nihil dolorum, explicabo iste ex quasi corrupti debitis ut voluptas ad, consequatur nam
-minus
-at molestias quibusdam error maiores! Ullam quod commodi corporis porro! Recusandae <br> delectus, doloremque ab harum sapiente optio aliquam tempora vitae error enim vel voluptatem? Repellat vel eligendi deserunt reiciendis maxime? Architecto explicabo omnis tenetur cupiditate asperiores? Numquam odio iste eum atque corporis mollitia magnam a fuga incidunt reiciendis. Iure culpa deleniti consequuntur fugit consequatur illum veniam possimus molestias ipsum voluptas quae cum, rerum sed ut! Culpa quasi et cumque possimus architecto alias non ipsum pariatur placeat assumenda, rem, inventore eveniet a. Odio, delectus sunt necessitatibus enim repellat provident! Necessitatibus facilis atque possimus doloremque, quas dolores porro reprehenderit optio iure repellat excepturi libero ratione laudantium cumque blanditiis! Laborum inventore iusto nobis in at libero sit nihil nam provident aspernatur voluptatem explicabo, consectetur esse id expedita nisi impedit natus, quae sequi! Nam earum
-quaerat
-quasi nesciunt omnis ipsam consequatur ducimus repudiandae magni, voluptates iste, <br> cupiditate hic cum eligendi. Dolor tempore et, doloremque quae laboriosam quisquam ea vitae hic numquam aliquid consequatur aperiam ipsum, dignissimos maiores modi. Ipsa repellat nostrum minima inventore voluptate ducimus soluta velit eveniet eaque molestias dolor omnis esse officiis cupiditate eligendi nobis, ut iure blanditiis in vel non aperiam suscipit. Temporibus architecto reiciendis, inventore dolorem nobis soluta impedit! Ea praesentium deleniti voluptatibus ducimus laudantium sint, facere officiis! Eos laudantium amet, ea excepturi molestiae voluptatibus minima autem eius impedit, temporibus magni praesentium expedita culpa a necessitatibus, earum maxime ducimus iste delectus.
-		
+		<main class="main-content">
+	<section class="promo">
+		<h1 class="visually-hidden">Магазин велосипедов и обмундирования</h1>
+		<div class="promo__container container">
+			<h2 class="promo__title main-title">
+				<span class="promo__title--small">STREETSTER NATHAN</span>
+				Удобный и быстрый <br>
+				Твой идеал для покорения города
+			</h2>
+			<a href="#" class="promo__btn btn-link-black btn-reset">УЗНАТЬ БОЛЬШЕ</a>
+		</div>
+	</section>
+	<div class="first-wrapper">
+		<section class="category">
+			<div class="category__container container">
+				<h2 class="category__title main-title">Категории</h2>
+			</div>
+			<div class='swiper-container c-swiper' aria-label='suggestions' aria-roledescription='carousel'>
+				<!-- Add Arrows -->
+				<button class='swiper-button-next c-swiper-button-next'></button>
+				<button class='swiper-button-prev c-swiper-button-prev'></button>
+				<div class='swiper-wrapper'>
+					<div class='swiper-slide c-slide' aria-live='polite'>
+						<div class='swiper-slide__wrapper  c-slide__wrapper c-slide__wrapper--road' role='group' aria-roledescription='slide' aria-label='portfolio'>
+							<a href="#" class="c-slide__link">
+								<img src="img/category/road.png" alt="Велосипед" class="c-slide__image">
+								<h3 class="c-slide__title">Road Series</h3>
+							</a>
+						</div>
+					</div>
+					<div class='swiper-slide c-slide' aria-live='polite'>
+						<div class='swiper-slide__wrapper  c-slide__wrapper c-slide__wrapper--street' role='group' aria-roledescription='slide' aria-label='portfolio'>
+							<a href="#" class="c-slide__link">
+								<img src="img/category/street.png" alt="Велосипед" class="c-slide__image">
+								<h3 class="c-slide__title">Street Series</h3>
+							</a>
+						</div>
+					</div>
+					<div class='swiper-slide c-slide' aria-live='polite'>
+						<div class='swiper-slide__wrapper  c-slide__wrapper c-slide__wrapper--offroad' role='group' aria-roledescription='slide' aria-label='portfolio'>
+							<a href="#" class="c-slide__link">
+
+								<img src="img/category/offroad.png" alt="Велосипед" class="c-slide__image">
+								<h3 class="c-slide__title">Offroad Series</h3>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="favorite">
+			<div class="favorite__container container">
+				<h2 class="favorite__title main-title">Избранные товары</h2>
+				<div class="favorite__row">
+					<article class="favorite__item favorite__item--bigger f-b-item">
+						<a href="#" class="f-b-item__link">
+							<h3 class="f-b-item__title">Streetster Bakerstreet</h3>
+							<p class="f-b-item__text">скорость соедененная с удобством</p>
+							<span class="f-b-item__arrow"></span>
+						</a>
+					</article>
+					<article class="favorite__item f-item">
+						<a href="#" class="f-item__link">
+							<img src="img/helmet.png" alt="Шлем" class="f-item__image">
+							<h3 class="f-item__title">Шлем Octane</h3>
+						</a>
+					</article>
+					<article class="favorite__item f-item">
+						<a href="#" class="f-item__link">
+							<img src="img/canyon.png" alt="Защита Canyon" class="f-item__image">
+							<h3 class="f-item__title">Защита Canyon</h3>
+						</a>
+					</article>
+					<article class="favorite__item f-item">
+						<a href="#" class="f-item__link">
+							<img src="img/canyon.png" alt="Защита Canyon" class="f-item__image">
+							<h3 class="f-item__title">Защита Canyon</h3>
+						</a>
+					</article>
+					<article class="favorite__item f-item">
+						<a href="#" class="f-item__link">
+							<img src="img/helmet.png" alt="Шлем" class="f-item__image">
+							<h3 class="f-item__title">Шлем Octane</h3>
+						</a>
+					</article>
+				</div>
+			</div>
+		</section>
+	</div>
+</main>
 		
 	</div>
 	<script src="resources/libs/swiper-bundle.min.js"></script>
