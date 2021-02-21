@@ -150,7 +150,71 @@
 		</div>
 	</nav>
 </header>
-		
+		<main class="main">
+	<section class="product-inner">
+		<h1 class="visually-hidden">Велосипед марки STREETSTER NATHAN</h1>
+		<div class="product-inner__container container">
+			<div class='swiper-container product-inner__swiper' aria-label='Галерея' aria-roledescription='carousel'>
+				<button class='swiper-button-next product-swiper-btn-next btn-reset'></button>
+				<button class='swiper-button-prev product-swiper-btn-prev btn-reset'></button>
+				<div class='swiper-pagination product-swiper-pagination'></div>
+				<div class='swiper-wrapper'>
+					<div class='swiper-slide' aria-live='polite'>
+						<div class='swiper-slide__wrapper' role='group' aria-roledescription='slide' aria-label='portfolio'>
+							<img src="img/category/offroad.png" alt="Велосипед" class="product__image product__image--first">
+						</div>
+					</div>
+					<div class='swiper-slide' aria-live='polite'>
+						<div class='swiper-slide__wrapper' role='group' aria-roledescription='slide' aria-label='portfolio'>
+							<img src="img/category/road.png" alt="Велосипед" class="product__image">
+						</div>
+					</div>
+					<div class='swiper-slide' aria-live='polite'>
+						<div class='swiper-slide__wrapper' role='group' aria-roledescription='slide' aria-label='portfolio'>
+							<img src="img/category/street.png" alt="Велосипед" class="product__image">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-inner__info">
+				<h2 class="product-inner sub-title">STREETSTER NATHAN</h2>
+				<span class="product-inner__price">12000 ₴</span>
+				<form action="/" class="product-inner__form">
+					<span class="product-inner__colors">Цвет: <span class="color"></span> </span>
+					<label class="product-inner__radio-color ">
+						<input type="radio" class="product-inner__radio-input" name="colors" value="black" checked>
+						<span class="product-inner__radio-span product-inner__radio-span--black"></span>
+					</label>
+					<label class="product-inner__radio-color ">
+						<input type="radio" class="product-inner__radio-input " name="colors" value="blue">
+						<span class="product-inner__radio-span product-inner__radio-span--blue"></span>
+					</label>
+					<label class="product-inner__radio-color ">
+						<input type="radio" class="product-inner__radio-input " name="colors" value="red">
+						<span class="product-inner__radio-span product-inner__radio-span--red"></span>
+					</label>
+					<span class="product-inner__frame">Рама: <span class="frame">54” (Рост 175-185 см)</span> </span>
+					<label class="product-inner__radio-frame">
+						<input type="radio" class="product__radio-frame-input" name="colors" value="54" checked>
+						<span class="product-inner__radio-frame-span">54” </span>
+					</label>
+					<label class="product-inner__frame">
+						<input type="radio" class="product__radio-frame-input " name="colors" value="57">
+						<span class="product-inner__radio-frame">57” </span>
+					</label>
+				</form>
+				<div class="product-inner__accessories">
+
+				</div>
+				<button class="product-inner__btn btn-link-transparent">Добавить в корзину</button>
+			</div>
+		</div>
+	</section>
+	<section class="product-outer">
+		<div class="product-outer__container container">
+		</div>
+	</section>
+</main>
 		<footer class="footer">
 	<div class="footer__container container">
 		<div class="footer__inner">
@@ -221,7 +285,7 @@
 	</div>
 	<script src="resources/libs/swiper-bundle.min.js"></script>
 	<script src="js/main.js"></script>
-
+	<script src="js/item-page.js"></script>
 </body>
 
 </html>
