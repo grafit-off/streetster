@@ -159,26 +159,15 @@
 			<div class="order__columns">
 				<div class="order__order-info order-info">
 					<div class="order-info__quantity">
-						В корзине <span class="order-info__quantity-numb">нет</span> <span class="order-info__word">товара</span>
+						В корзине <span class="order-info__quantity-numb">нет товара</span>
 					</div>
 					<ul class="order-info__list">
-						<li class="order-info__item">
-							<article class="o-item" data-id="${id}">
-								<img src="img/category/bicycle1.png" alt="Велосипед" class="o-item__image">
 
-								<h4 class="o-item__title">Что-то</h4>
-								<span class="o-item__price">12000 грн</span>
-
-								<button class="o-item__delete btn-reset" aria-label="Удалить товар">
-									×
-								</button>
-							</article>
-						</li>
 					</ul>
 					<div class="order-info__free-delivery">Доставка: бесплатно</div>
 					<div class="order-info__sum">
-						<span>Итого: </span>
-						<span class="sum">0 ₴</span>
+						Итого:
+						<span class="order-info__summ"></span>
 					</div>
 					<div class="order-info__btns">
 						<a href="index.html" class="order-info__btn-order btn-link-transparent">ПРОДОЛЖИТЬ ПОКУПКИ</a>
@@ -186,7 +175,7 @@
 					</div>
 				</div>
 				<div class="order__contact ">
-					<form action="/tyda" id='contact-form' class="order__form">
+					<form action="mail.php" id='contact-form' class="order__form">
 						<div class="cf-top">
 							<h2 class="cf-top__title ">
 								Контактная информация
@@ -202,11 +191,11 @@
 								</label>
 								<label class="cf-top__label">
 									<h3 class="cf-top__subtitle sub-title">Номер телефона</h3>
-									<input type="tel" class="cf-top__input input" name="Номер телефона" required>
+									<input type="tel" class="cf-top__input cf-top__input--tel input" name="Номер телефона" required>
 								</label>
 								<label class="cf-top__label">
 									<h3 class="cf-top__subtitle sub-title">E-mail</h3>
-									<input type="email" class="cf-top__input input" name="E-mail" required>
+									<input type="email" class="cf-top__input cf-top__input-mail input" name="E-mail" required>
 								</label>
 							</div>
 						</div>
@@ -215,10 +204,10 @@
 								Оплата и доставка
 							</h2>
 							<div class="cf-bottom__wrapper">
-								<div class="cf-bottom__item select">
-									<label class="select__label">
-										<h3 class="select__subtitle">Способ оплаты</h3>
-										<select class="select__select input" name="Способ оплаты" required>
+								<div class="cf-bottom__item select-wrap">
+									<h3 class="cf-bottom__subtitle">Способ оплаты</h3>
+									<label class="label">
+										<select class="select" name="Способ оплаты" required>
 											<option value="расчёт наличными при получении товара">Расчёт наличными при получении товара</option>
 											<option value="расчёт банковской картой">Расчёт банковской картой</option>
 											<option value="оплата с помощью электронного кошелька">Оплата с помощью электронного кошелька</option>
@@ -226,13 +215,17 @@
 										</select>
 									</label>
 								</div>
-								<div class="cf-bottom__item select">
-									<label class="select__label">
-										<h3 class="select__subtitle">Споспоб получения</h3>
-										<select class="select__select input" name="Способ оплаты" required>
+								<div class="cf-bottom__item select-wrap">
+									<h3 class="cf-bottom__subtitle">Споспоб получения</h3>
+									<label class="label">
+										<select class="select " name="Способ получения" required>
 											<option value="Новая Почта">Новая Почта</option>
 											<option value="УкрПочта">УкрПочта</option>
 											<option value="Самовызов">Самовызов в магазин "STREETSTER"</option>
+											<option value="Переполнение">Переполнение</option>
+											<option value="Переполнение">Переполнение</option>
+											<option value="Переполнение">Переполнение</option>
+											<option value="Переполнение">Переполнение</option>
 										</select>
 									</label>
 								</div>
@@ -256,6 +249,10 @@
 		</div>
 	</section>
 </main>
+		<footer class="footer">
+			<p class="copy">© STREETSTER — Все права защищены </p>
+		</footer>
+		<div id="snackbar-form-submit"></div>
 	</div>
 	<script src="resources/libs/swiper-bundle.min.js"></script>
 	<script src="js/main.js"></script>
