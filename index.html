@@ -318,7 +318,7 @@
 		<section class="mail-form">
 			<div class="mail-form__container container">
 				<h3 class="mail-form__title sub-title">Подпишитесь на новостную рассылку</h3>
-				<form action="/" class="mail-form__form">
+				<form action="/" class="mail-form__form" onsubmit="return (ValidMail())">
 					<input type="email" class="mail-form__input input" placeholder="Email" required>
 					<button class="mail-form__submit btn-link-black">ПОДПИСАТЬСЯ</button>
 				</form>
