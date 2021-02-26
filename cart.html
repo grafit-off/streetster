@@ -3,7 +3,7 @@
 
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
 	<link rel="shortcut icon" href="resources/favicon.png" />
 	<link rel="stylesheet" href="css/cart.min.css">
@@ -43,10 +43,11 @@
 										</div>
 										<div class="sf-item__info">
 											<a href=" item.html" class="sf-item__link">
-												<h3 class="sf-item__name" aria-label="Название">STEETSTER NATHAN</h3>
-												<span class="sf-item__subinfo" aria-label="Вспомогательная Информация">12000 ₴</span>
+												<h3 class="sf-item__name">STEETSTER NATHAN</h3>
+												<span class="sf-item__subinfo">12000 ₴</span>
 											</a>
 										</div>
+									</div>
 								</article>
 							</li>
 							<li class="search-field__item sf-item">
@@ -58,8 +59,8 @@
 									</div>
 									<div class="sf-item__info">
 										<a href="news.html" class="sf-item__link">
-											<h3 class="sf-item__name" aria-label="Название">НОВОСТИ</h3>
-											<span class="sf-item__subinfo" aria-label="Вспомогательная Информация">Новый велосипед Streetster Nathan</span>
+											<h3 class="sf-item__name">НОВОСТИ</h3>
+											<span class="sf-item__subinfo">Новый велосипед Streetster Nathan</span>
 										</a>
 									</div>
 								</article>
@@ -106,7 +107,7 @@
 						<span>/</span>
 						<button class="menu__lang-btn btn-reset">EN</button>
 					</div>
-					<ul class="menu__list-category" aria-label="Категории">
+					<ul class="menu__list-category">
 						<li>
 							<a href="category-road.html" class="menu__link menu__link--bold">ROAD SERIES</a>
 						</li>
@@ -117,7 +118,7 @@
 							<a href="category-offroad.html" class="menu__link menu__link--bold">OFFROAD SERIES</a>
 						</li>
 					</ul>
-					<ul class="menu__list" aria-label="Информация">
+					<ul class="menu__list">
 						<li>
 							<a href="news.html" class="menu__link">Новости</a>
 						</li>
@@ -128,7 +129,7 @@
 							<a href="about-us&contacts.html#contacts" class="menu__link">Контакты</a>
 						</li>
 					</ul>
-					<ul class="menu__list menu__list-social" aria-label="Социальные сети">
+					<ul class="menu__list menu__list-social">
 						<li>
 							<a href="https://www.instagram.com/" class="menu__link menu__link--inst" aria-label="Интсаграм">
 								<svg class="">
@@ -181,19 +182,19 @@
 							</h2>
 							<div class="cf-top__wrapper">
 								<label class="cf-top__label">
-									<h3 class="cf-top__subtitle sub-title">Имя</h3>
+									<span class="cf-top__subtitle sub-title">Имя</span>
 									<input type="text" class="cf-top__input input" name="Имя" required>
 								</label>
 								<label class="cf-top__label">
-									<h3 class="cf-top__subtitle sub-title">Фамилия</h3>
+									<span class="cf-top__subtitle sub-title">Фамилия</span>
 									<input type="text" class="cf-top__input input" name="Фамилия" required>
 								</label>
 								<label class="cf-top__label">
-									<h3 class="cf-top__subtitle sub-title">Номер телефона</h3>
+									<span class="cf-top__subtitle sub-title">Номер телефона</span>
 									<input type="tel" class="cf-top__input cf-top__input--tel input" name="Номер телефона" required>
 								</label>
 								<label class="cf-top__label">
-									<h3 class="cf-top__subtitle sub-title">E-mail</h3>
+									<span class="cf-top__subtitle sub-title">E-mail</span>
 									<input type="email" class="cf-top__input cf-top__input-mail input" name="E-mail" required>
 								</label>
 							</div>
@@ -204,24 +205,25 @@
 							</h2>
 							<div class="cf-bottom__wrapper">
 								<div class="cf-bottom__item select-wrap">
-									<h3 class="cf-bottom__subtitle">Способ оплаты</h3>
+									<span class="cf-bottom__subtitle">Способ оплаты</span>
 									<label class="label">
 										<select class="select" name="Способ оплаты" required>
-											<option value="расчёт наличными при получении товара">Расчёт наличными при получении товара</option>
+											<option value="">Выбор</option>
 											<option value="расчёт банковской картой">Расчёт банковской картой</option>
 											<option value="оплата с помощью электронного кошелька">Оплата с помощью электронного кошелька</option>
 											<option value="оплата через почту и другие">Оплата через почту и другие</option>
+											<option value="расчёт наличными при получении товара">Расчёт наличными при получении товара</option>
 										</select>
 									</label>
 								</div>
 								<div class="cf-bottom__item select-wrap">
-									<h3 class="cf-bottom__subtitle">Споспоб получения</h3>
+									<span class="cf-bottom__subtitle">Споспоб получения</span>
 									<label class="label">
 										<select class="select " name="Способ получения" required>
-											<option value="Новая Почта">Новая Почта</option>
+											<option value="">Выбор</option>
 											<option value="УкрПочта">УкрПочта</option>
 											<option value="Самовызов">Самовызов в магазин "STREETSTER"</option>
-											<option value="Переполнение">Переполнение</option>
+											<option value="Новая Почта">Новая Почта</option>
 											<option value="Переполнение">Переполнение</option>
 											<option value="Переполнение">Переполнение</option>
 											<option value="Переполнение">Переполнение</option>
@@ -230,13 +232,13 @@
 								</div>
 								<div class="cf-bottom__item">
 									<label class="cf-bottom__label">
-										<h3 class="cf-bottom__subtitle sub-title">Город</h3>
+										<span class="cf-bottom__subtitle sub-title">Город</span>
 										<input type="text" class="cf-bottom__input input" name="Город" required>
 									</label>
 								</div>
 								<div class="cf-bottom__item">
 									<label class="cf-bottom__label">
-										<h3 class="cf-bottom__subtitle sub-title">Адрес доставки</h3>
+										<span class="cf-bottom__subtitle sub-title">Адрес доставки</span>
 										<input type="text" class="cf-bottom__input input" name="Адрес доставки" required>
 									</label>
 								</div>
