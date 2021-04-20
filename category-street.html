@@ -1,72 +1,23 @@
 <!DOCTYPE html>
-<html lang="RU">
+<html lang="ru">
 
 <head>
 	<!-- Кодировка -->
 	<meta charset="UTF-8">
 
 	<!-- Запрет зума, cover для телефонов с бровью-->
-	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0
+	<meta name="viewport" content="width=device-width, viewport-fit=cover, initial-scale=1.0" />
 
 	<!-- Отключение вызова текстовых номеров -->
-	<meta name=" format-detection" content='telephone=no' />
-	<!--  
-		SEO META 
-		Краткое описание, ключевые слова
-	<meta name="description" content="" />
-	<meta name="keywords" content="" />
+	<meta name="format-detection" content='telephone=no' />
 
-		Индексирование странички
-	<meta name="robots" content="" />
-		Полный запрет - content="noindex, nofollow" или content="none"
-		Запрет индексации картинок и ссылок content="noimage, nofollow"
-		Информация
+	<meta name="description" content="Магазин велосипедов и обмундирования STREETSTER" />
+	<meta name="keywords" content="Типы велосипедов, новости, обмундирование" />
+
 	<meta name="Author" content="-" />
 	<meta name="Copyright" content="-" />
 	<meta name="Address" content="-" />
 
-		Редирект | перенаправление
-	<meta http-equiv='refresh' content='0;url=' /> *0 - время перед началом переадресации в секундах, url - ссылка куда переадресовывать
-
-
-		Информации о странице, которая будет выводится в записи социальной сети при репосте сайта (Open Graph)
-		Локализация сайта
-	<meta property="og:locale" content="ru_RU" />
-
-		Тип контента
-	<meta property="og:type" content="article" />
-
-		Название сайта 
-	<meta property="og:site_name" content=""/>
-
-		Заголовок страницы
-	<meta property="og:title" content=""/>
-
-		Описание страницы 
-	<meta property="og:description" content=""/>
-
-		Ссылка на текущую страницу
-	<meta property="og:url" content=""/>
-
-		Изображение
-	<meta property="og:image" content=""/>  *вставить ссылку в content
-
-
-		Twitter Cards
-	<meta name="twitter:card" content="summary">
-
-		Имя/логин автора 
-	<meta name="twitter:site" content="Имя">
-
-		Название страницы 
-	<meta name="twitter:title" content="META теги">
-
-		Описание страницы 
-	<meta name="twitter:description" content="про META теги">
-
-		Cсылка на изображение
-	<meta name="twitter:image" content=""> *вставить ссылку в content	
--->
 
 	<link rel="shortcut icon" href="resources/favicon.png" />
 	<link rel="stylesheet" href="resources/libs/swiper-bundle.min.css" />
@@ -96,7 +47,7 @@
 						<input type="search" class="nav__search" required aria-label="Поиск по сайту">
 					</form>
 					<div class="nav__search-field search-field">
-						<ul class="search-field__list">
+						<ul class="search-field__list" hidden>
 							<li>
 								<article class="search-field__item sf-item">
 									<div class="sf-item">
@@ -172,7 +123,6 @@
 						<button class="menu__lang-btn btn-reset">EN</button>
 					</div>
 					<nav>
-
 						<ul class="menu__list-category">
 							<li>
 								<a href="category-road.html" class="menu__link menu__link--bold">ROAD SERIES</a>
@@ -522,7 +472,7 @@
 				<img src="img/logo-footer.png" alt="Логотип 'Streetster'">
 			</a>
 			<div class='acordion__wrapper'>
-				<h4 class='acordion__title acordion-triger'>Категории</h4>
+				<h2 class='acordion__title acordion-triger'>Категории</h2>
 				<ul class='acordion__body acordion__body--uppercase'>
 					<li class="acordion__item">
 						<a href="category-road.html" class="acordion__link">ROAD SERIES</a>
@@ -536,7 +486,7 @@
 				</ul>
 			</div>
 			<div class='acordion__wrapper'>
-				<h4 class='acordion__title acordion-triger'>Информация</h4>
+				<h2 class='acordion__title acordion-triger'>Информация</h2>
 				<ul class='acordion__body'>
 					<li class="acordion__item">
 						<a href="about-us&contacts.html" class="acordion__link">О нас</a>
@@ -547,7 +497,7 @@
 				</ul>
 			</div>
 			<div class='acordion__wrapper'>
-				<h4 class='acordion__title acordion-triger'>Новости</h4>
+				<h2 class='acordion__title acordion-triger'>Новости</h2>
 				<ul class='acordion__body'>
 					<li class="acordion__item">
 						<a href="news.html" class="acordion__link">Все новости</a>
@@ -565,14 +515,14 @@
 			</div>
 			<ul class="footer__list-social">
 				<li>
-					<a href="https://www.instagram.com/" class="footer__link--inst" aria-label="Интсаграм">
+					<a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" class="footer__link--inst" aria-label="Интсаграм">
 						<svg class="">
 							<use xlink:href="img/sprite.svg#instagram"></use>
 						</svg>
 					</a>
 				</li>
 				<li>
-					<a href="https://www.facebook.com/" class="footer__link--fb" aria-label="Фейсбук">
+					<a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" class="footer__link--fb" aria-label="Фейсбук">
 						<svg class="">
 							<use xlink:href="img/sprite.svg#facebook"></use>
 						</svg>
@@ -582,11 +532,7 @@
 		</div>
 		<div class="footer__outer copy">
 			© STREETSTER — Все права защищены.
-			<div> Разработка сайта - Черный</div>
-			<a href="https://www.instagram.com/ncl_ch/" target="_blank" rel="noopener" class="footer__link">
-				Instagram
-			</a>
-			<a href="https://t.me/ncl_ch" target="_blank" rel="noopener" class="footer__link"> Telegram</a>
+			<div> Разработка сайта - <a href="https://www.weblancer.net/users/grafit-off/" target="_blank" rel="noopener noreferrer" class="footer__link">Черный</a></div>
 		</div>
 	</div>
 	<div id="snackbar-cart">Этот товар уже находиться в корзине!</div>
