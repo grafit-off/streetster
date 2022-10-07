@@ -1,6 +1,6 @@
 # STREETSTER | Online cycle shop
 
-## (GitHub Pages)[https://grafit-off.github.io/streetster/]
+## [Open website](https://grafit-off.github.io/streetster/)
 
 ### 🎯Goal
 Create a website adaptive for different devices with a shopping cart on the client side
