@@ -1,4 +1,4 @@
-# STREETSTER | Online cycle shop
+# STREETSTER | Online bike shop
 
 ## [Open website](https://grafit-off.github.io/streetster/)
 
