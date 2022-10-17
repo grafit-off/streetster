@@ -6,7 +6,7 @@
 Create a website adaptive for different devices with a shopping cart on the client side
 
 ### 📜Description
-The online cycle shop with great looks consists of eight different pages with responsive, adaptive design and semantic markup. Was decided to make a shopping cart on the client side using JavaScript (local storage). Also were implemented a lot of custom components.
+The online bike shop with great looks. The website consists of eight different pages with responsive, adaptive design and semantic markup. It was decided to make a shopping cart on the client side using JavaScript (local storage). Also were implemented a lot of custom components.
 
 ### 🖼Results
 1. Responsive layout for different devices
